@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="assets/stylesheets/light.css" />
+    <link rel="stylesheet" href="assets/stylesheets/style.css" />
+</head>
+<body>
+<div class="wrapper">
+    <div class="top">
+        <div class="btn-wrap">
+            <div id="btn" data-plugin="animationsPlugin">
+                <div class="text">
+                    Button
+                </div>
+            </div>
+        </div>
+        <div class="form-wrapper">
+            <form data-plugin="validationsPlugin">
+                <p>
+                    <label>
+                        <span>Текст</span>
+                        <input type="text"
+                               name="text"
+                               required
+                               placeholder="Введите текст"
+                        >
+                        <span class="warning" data-name="text" data-method="required">Введите текст</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span>Телефон 1</span>
+                        <input type="tel"
+                               name="tel1"
+                               required
+                        >
+                        <span class="warning" data-name="tel1" data-method="required">Введите номер телефона</span>
+                        <span class="warning" data-name="tel1" data-method="minlength">Должно быть больше 5-и символов</span>
+                        <span class="warning" data-name="tel1" data-method="digits">Номер должен начинаться со знака "+", остальные знаки должны быть цифрами.</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span>Телефон 2</span>
+                        <input type="tel"
+                               name="tel2"
+                               required
+                        >
+                        <span class="warning" data-name="tel2" data-method="required">Введите номер телефона</span>
+                        <span class="warning" data-name="tel2" data-method="minlength">Invalid phone number. Должно быть больше 5-и символов</span>
+                        <span class="warning" data-name="tel2" data-method="digits">Invalid phone number. Номер должен начинаться со знака "+", остальные знаки должны быть цифрами.</span>
+                    </label>
+                </p>
+                <input type="submit">
+            </form>
+            <div class="form-modal-success">
+                <div>
+                    Успех!
+                    <button>OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="img-collection">
+            <img data-src="
+                 images/image-512.jpg 512w,
+                 images/image-768.jpg 768w,
+                 images/image-1280.jpg 1280w"
+                 data-plugin="lazyPlugin">
+        </div>
+        <div class="text">
+            <span data-plugin="rotatePlugin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, quo!</span>
+        </div>
+    </div>
+</div>
+
+<script src="assets/javascripts/main.js"></script>
+</body>
+</html>

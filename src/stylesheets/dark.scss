@@ -1,0 +1,11 @@
+// @TODO
+$darkGray: #666;
+$withe: #fff;
+$borderColor: #333;
+
+body {
+    font-family: "Times New Roman", sans-serif;
+    border-color: $borderColor;
+    background-color: $darkGray;
+    color: $withe;
+}
