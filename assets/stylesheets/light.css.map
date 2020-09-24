@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "light.css",
+	"sources": [
+		"../../../src/stylesheets/light.scss"
+	],
+	"sourcesContent": [
+		"// @TODO\n$borderColor: #ccc;\n\nbody {\n    font-family: Arial, sans-serif;\n    border-color: $borderColor;\n}\n"
+	],
+	"names": [],
+	"mappings": "AAGA,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,iBAAiB;EAC9B,YAAY,EAJF,IAAI,GAKjB"
+}

@@ -1,0 +1,58 @@
+.wrapper .top {
+  height: 100vh;
+  margin-bottom: 50px; }
+  .wrapper .top .btn-wrap {
+    position: relative;
+    height: 50px; }
+    .wrapper .top .btn-wrap #btn {
+      position: fixed;
+      display: flex;
+      top: 20px;
+      right: 20px;
+      width: 100px;
+      overflow: hidden; }
+      .wrapper .top .btn-wrap #btn .text {
+        display: flex;
+        justify-content: center;
+        min-width: 100px;
+        background-color: #3bbfce; }
+  .wrapper .top form {
+    padding: 10px; }
+    .wrapper .top form p label {
+      display: flex;
+      flex-direction: column; }
+    .wrapper .top form input {
+      margin: 5px 0; }
+    .wrapper .top form .warning {
+      display: none;
+      color: #f00; }
+  .wrapper .top .form-modal-success {
+    position: absolute;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50vw;
+    height: 50vh; }
+    .wrapper .top .form-modal-success div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%; }
+      .wrapper .top .form-modal-success div button {
+        margin-top: 20px; }
+
+.wrapper .bottom {
+  display: flex; }
+  .wrapper .bottom .img-collection {
+    max-width: 50%;
+    min-width: 50%; }
+    .wrapper .bottom .img-collection img {
+      width: 100%; }
+  .wrapper .bottom .text {
+    padding: 50px; }
+    .wrapper .bottom .text span {
+      display: block; }
+
+/*# sourceMappingURL=style.css.map */

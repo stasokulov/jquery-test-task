@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "dark.css",
+	"sources": [
+		"../../../src/stylesheets/dark.scss"
+	],
+	"sourcesContent": [
+		"// @TODO\n$darkGray: #666;\n$withe: #fff;\n$borderColor: #333;\n\nbody {\n    font-family: \"Times New Roman\", sans-serif;\n    border-color: $borderColor;\n    background-color: $darkGray;\n    color: $withe;\n}\n"
+	],
+	"names": [],
+	"mappings": "AAKA,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,6BAA6B;EAC1C,YAAY,EAJF,IAAI;EAKd,gBAAgB,EAPT,IAAI;EAQX,KAAK,EAPD,IAAI,GAQX"
+}
